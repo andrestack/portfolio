@@ -1,4 +1,4 @@
-import icon from "../src/assets/icon.png";
+import cartoon from "./assets/cartoon.png";
 
 interface IConfig {
   me: {
@@ -25,11 +25,11 @@ interface IConfig {
 
 export const Config: IConfig = {
   me: {
-    name: "John Doe",
-    job: "backend engineer",
-    started: "1970-01-01",
+    name: "André Silva",
+    job: "frontend engineer",
+    started: "2023",
     stack: "Scratch",
-    hobby: "gamble my life savings",
+    hobby: "Teach German",
     projectLink: "https://github.com/JohnDoe?tab=repositories",
   },
   socials: {
@@ -47,6 +47,6 @@ export const Config: IConfig = {
     },
   },
   og: {
-    image: icon.src,
+    image: cartoon.src,
   },
 };
